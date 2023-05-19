@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:30%;
+    margin: 50px auto;
+    
+    border:solid black 1px;
+    border-radius: 10px;
+    background-color: hsl(256, 65%, 97%);
+
+    
+}
+p{
+    margin:10px 100px;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+
+}
+ h2{
+    margin:20px 130px;
+    justify-content: center;
+    align-items: center;
+}
+.logout-btn{
+    border: none;
+    border-radius: 3px;
+    margin:10px 170px;
+    background-color: rgb(140, 120, 158);
+    padding: 5px 15px;
+    cursor: pointer;
+}

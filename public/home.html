@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Home Page</h2>
+        <p id="email"></p>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+
+
+    <script>
+        function logout(){
+            window.location.href ="./login.html"
+        }
+        const userEmail = "<%= session.email %>";
+        document.getElementById('email').textContent = 'Email:' +userEmail;
+    </script>
+
+    
+</body>
+</html>
